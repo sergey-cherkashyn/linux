@@ -1,0 +1,13 @@
+#
+# MIPI configuration
+#
+
+menu "MIPI Support"
+
+config MIPI_CSI2
+	tristate "MIPI CSI2 support"
+	default n
+	---help---
+	Say Y to get the MIPI CSI2 support.
+
+endmenu
